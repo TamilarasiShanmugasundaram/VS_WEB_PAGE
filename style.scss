@@ -10,6 +10,22 @@
 	--fulltime : #445589;
 }
 
+@font-face {
+	font-family: 'pop';
+	src: url(fonts/Poppins-Regular.ttf);
+	src: url(fonts/Poppins-Bold.ttf);
+}  
+
+@font-face {
+	font-family: 'open';
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	font-size: 15px;
+	font-family: 'open';
+}
+
 .p-top {
 	padding-top: 20px;
 }
@@ -21,29 +37,28 @@
 .left-container {
 	vertical-align: top;
 	display: inline-block;
-	width: 20%;
-	padding-top: 40px;
+	width: 25%;
+	padding-top: 40px; 
 }
 
 .right-container {
 	display: inline-block;
-	width: 70%;
+	width: 74%;
 }
 
 .resume {
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 600;
-   font-size: 15px;
-   color: var(--white);
-   border: none;
-   border-radius: 15px;
-   background: var(--resume-blue);
-   height: 50px;
-   width: 60%;
-   text-align: center;
-   margin-top: 35px;
-}
-
+	font-weight: 600;
+	font-size: 15px;
+	color: var(--white);
+	border: none;
+	border-radius: 15px;
+	background: var(--resume-blue);
+	height: 50px;
+	width: 60%;
+	text-align: center;
+	margin-top: 35px;
+ }
+ 
 .profile-images {
    padding-left: 10px;
    display: inline-block;
@@ -53,27 +68,25 @@
 	color: var(--heading-blue) ;
 	font-size: 30px;
 	font-weight: bold;
-	padding-top: 25px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'pop';
 }
 
 .sub-block {
 	width:75%;
-	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .profile-details {
 	color:var(--profile-light-blue);
 	display: inline-block;
 	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'pop';
     padding-left:15px;
 	padding-bottom: 3px;
 	vertical-align: text-bottom;
 }
 
 .institute {
-	font-size: 15px;
 	padding-top: 10px;
 	color: var(--light);
 	font-weight: bold;
@@ -93,20 +106,17 @@
 }
 
 .date-pic {
-	padding-left: 30%;
+	padding-left: 20%;
 	padding-top: 2px;
 }
-.space {
-	padding-bottom: 50px;
-	padding-top: 25px;
-}
+
 .name {
 	color: var(--heading-blue);
 	font-size: 30px;
 	padding-left: 25px;
 	padding-top: 30px;
 	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'pop';
 	width: 60%;
 	text-align: center;
 }
@@ -114,17 +124,16 @@
 .Position {
 	color: var(--designation);
 	font-size: 20px;
-	padding-left: 32px;
-	font-family: 'Open Sans', sans-serif;
-	padding-top:20px;
+	padding-left: 28px;
+	padding-top:15px;
 	height:40px;
 }
 
 .paragraph {
 	color: var(--paragraph);
-	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	padding-right: 23%;
+	padding-bottom: 40px;
 }
 
 .degree {
@@ -150,7 +159,6 @@
 	display: inline-block;
 	font-size: 20px;
 	color:var(--designation);
-	font-family: 'Open Sans', sans-serif;	
 }
 .fulltime {
 	display: inline-block;
@@ -159,7 +167,6 @@
     height:35px;
     width:14%;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 13px;
 	opacity:0.7;
@@ -170,13 +177,10 @@
 	 opacity: .1;
  }
 .company-name {
-	font-size: 15px;
-	padding-top: 5px;
 	padding-left: 5px;
 	color: var(--light);
 	display: inline-block;
 	width: 90px;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	padding-bottom: 7px;
 	vertical-align: text-bottom;
@@ -188,17 +192,14 @@
 	vertical-align: text-bottom;
 	color:var(--light);
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
 .senior-developer-date {
 	padding-left: 12%;
 }
 .city {
-	padding-bottom: 7px;
+	padding-bottom: 4px;
 	vertical-align: text-bottom;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
 	width: 45%;
 	color: var(--light);
 	display: inline-block;
