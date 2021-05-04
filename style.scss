@@ -24,6 +24,11 @@
 body {
 	font-size: 15px;
 	font-family: 'open';
+	white-space: nowrap;
+}
+
+hr {
+	opacity: .1;
 }
 
 .p-top {
@@ -35,173 +40,174 @@ body {
 }
 
 .left-container {
+	white-space: normal;
 	vertical-align: top;
 	display: inline-block;
 	width: 25%;
-	padding-top: 40px; 
+	padding-top: 40px;
+	
+	.face {
+		border-radius: 50%;
+		height: 15%;
+		width: 50%;
+		margin-left: 50px;
+	}
+
+    .name {
+		color: var(--heading-blue);
+		font-size: 30px;
+		padding-left: 25px;	
+		padding-top: 30px;
+		font-weight: bold;
+		font-family: 'pop';
+		width: 60%;
+		text-align: center;
+	}
+
+	.Position {
+		color: var(--designation);
+		font-size: 20px;
+		padding-left: 28px;
+		padding-top:15px;
+		height:40px;
+	}
+
+	.profile-details {
+		color:var(--profile-light-blue);
+		display: inline-block;
+		font-weight: bold;
+		font-family: 'pop';
+		padding-left:15px;
+		padding-bottom: 3px;
+		vertical-align: text-bottom;
+	}
+	
+	.profile-images {
+	   padding-left: 10px;
+	   display: inline-block;
+	}
+
+	.resume {
+		font-weight: 600;
+		font-size: 15px;
+		color: var(--white);
+		border: none;
+		border-radius: 15px;
+		background: var(--resume-blue);
+		height: 50px;
+		width: 60%;
+		text-align: center;
+		margin-top: 35px;
+	 }	 
 }
 
 .right-container {
+	white-space: normal;
 	display: inline-block;
-	width: 74%;
-}
+	width: 75%;
 
-.resume {
-	font-weight: 600;
-	font-size: 15px;
-	color: var(--white);
-	border: none;
-	border-radius: 15px;
-	background: var(--resume-blue);
-	height: 50px;
-	width: 60%;
-	text-align: center;
-	margin-top: 35px;
- }
- 
-.profile-images {
-   padding-left: 10px;
-   display: inline-block;
-}
+	.sub-block {
+		padding-bottom: 40px;
+	}
 
-.heading {
-	color: var(--heading-blue) ;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: 'pop';
-}
+	.heading {
+		color: var(--heading-blue) ;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'pop';
+	}
 
-.sub-block {
-	width:75%;
-	padding-bottom: 40px;
-}
+	.paragraph {
+		color: var(--paragraph);
+		font-size: 18px;
+		width: 45em;
+		padding-right: 23%;
+		padding-bottom: 40px;
+	}
 
-.profile-details {
-	color:var(--profile-light-blue);
-	display: inline-block;
-	font-weight: bold;
-	font-family: 'pop';
-    padding-left:15px;
-	padding-bottom: 3px;
-	vertical-align: text-bottom;
-}
+	.company-name {
+		color: var(--light);
+		display: inline-block;
+		width: 75px;
+		font-weight: bold;
+		padding-bottom: 7px;
+		vertical-align: text-bottom;
+	}
+	
+	.date {
+		font-size: 15px;
+		padding-bottom: 7px;
+		vertical-align: text-bottom;
+		color:var(--light);
+		display: inline-block;
+		font-weight: bold;
+	}
+	
+	.senior-developer-date {
+		padding-left: 9%;
+	}
+	
+	.city {
+		padding-bottom: 4px;
+		vertical-align: text-bottom;
+		width: 45%;
+		color: var(--light);
+		display: inline-block;
+		font-weight: bold;
+	}
 
-.institute {
-	padding-top: 10px;
-	color: var(--light);
-	font-weight: bold;
-	padding-bottom: 7px;
-	vertical-align: text-bottom;
-	display: inline-block;
-}
-
-.education-date {
-	font-size: 15px;
-	padding-bottom: 7px;
-	vertical-align: text-bottom;
-	padding-top: 8px;
-	color: var(--light);
-	display: inline-block;
-	font-weight: bold;
-}
-
-.date-pic {
-	padding-left: 20%;
-	padding-top: 2px;
-}
-
-.name {
-	color: var(--heading-blue);
-	font-size: 30px;
-	padding-left: 25px;
-	padding-top: 30px;
-	font-weight: bold;
-	font-family: 'pop';
-	width: 60%;
-	text-align: center;
-}
-
-.Position {
-	color: var(--designation);
-	font-size: 20px;
-	padding-left: 28px;
-	padding-top:15px;
-	height:40px;
-}
-
-.paragraph {
-	color: var(--paragraph);
-	font-size: 18px;
-	padding-right: 23%;
-	padding-bottom: 40px;
-}
-
-.degree {
-	padding-top: 20px;
-	color:var(--light);
-	font-size: 20px;
-}
-
-.master-pic {
-	padding-top: 7px;
-	display: inline-block;
-}
-
-.face {
-	border-radius: 50%;
-	height: 15%;
-	width: 50%;
-    margin-left: 50px;
-}
-
-.sub-title {
-	width: 600px;
-	display: inline-block;
-	font-size: 20px;
-	color:var(--designation);
-}
-.fulltime {
-	display: inline-block;
-	border-radius: 25px;
-	background: var(--fulltime-background);
-    height:35px;
-    width:14%;
-	text-align: center;
-	font-weight: 600;
-	font-size: 13px;
-	opacity:0.7;
-	color:var(--fulltime);
-	border: none;
- }
- hr {
-	 opacity: .1;
- }
-.company-name {
-	padding-left: 5px;
-	color: var(--light);
-	display: inline-block;
-	width: 90px;
-	font-weight: bold;
-	padding-bottom: 7px;
-	vertical-align: text-bottom;
-}
-
-.date {
-	font-size: 15px;
-	padding-bottom: 7px;
-	vertical-align: text-bottom;
-	color:var(--light);
-	display: inline-block;
-	font-weight: bold;
-}
-.senior-developer-date {
-	padding-left: 12%;
-}
-.city {
-	padding-bottom: 4px;
-	vertical-align: text-bottom;
-	width: 45%;
-	color: var(--light);
-	display: inline-block;
-	font-weight: bold;
+	.institute {
+		padding-top: 10px;
+		color: var(--light);
+		font-weight: bold;
+		padding-bottom: 7px;
+		vertical-align: text-bottom;
+		display: inline-block;
+	}
+	
+	.education-date {
+		font-size: 15px;
+		padding-bottom: 7px;
+		vertical-align: text-bottom;
+		padding-top: 8px;
+		color: var(--light);
+		display: inline-block;
+		font-weight: bold;
+	}
+	
+	.date-pic {
+		padding-left: 26%;
+		padding-top: 2px;
+	}
+	
+	.degree {
+		padding-top: 20px;
+		color:var(--light);
+		font-size: 20px;
+	}
+	
+	.master-pic {
+		padding-top: 7px;
+		display: inline-block;
+	}
+	
+	.sub-title {
+		width: 66%;
+		display: inline-block;
+		font-size: 20px;
+		color:var(--designation);
+	}
+	.fulltime {
+		display: inline-block;
+		border-radius: 25px;
+		background: var(--fulltime-background);
+		height:35px;
+		width:14%;
+		text-align: center;
+		font-weight: 600;
+		font-size: 13px;
+		opacity:0.7;
+		color:var(--fulltime);
+		border: none;
+	 }
 }
